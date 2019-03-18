@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_gravity="center_horizontal"
+              android:gravity="center"
+              android:layout_marginTop="370dp"
+              tools:context=".ThirdFragment">
+
+    <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/colorPrimaryDark"
+            android:layout_margin="5dp">
+
+        <RelativeLayout android:layout_width="match_parent"
+                        android:layout_height="550dp">
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:layout_marginTop="-500dp"
+                    android:textColor="#708090"
+                    android:fontFamily="@font/bas"
+                    android:id="@+id/fon"
+                    android:text="How I Grow With Internet"/>
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="140dp">
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:orientation="horizontal"
+                          android:weightSum="3">
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="Instagram"
+                              android:textColor="#708090"
+                              android:fontFamily="@font/reg"
+                              android:textSize="18dp"/>
+
+                    <ImageView android:layout_width="35dp"
+                               android:layout_height="35dp"
+                               android:src="@drawable/igs"/>
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="Twitter"
+                              android:textColor="#708090"
+                              android:fontFamily="@font/reg"
+                              android:textSize="18dp"/>
+
+                    <ImageView android:layout_width="35dp"
+                               android:layout_height="35dp"
+                               android:src="@drawable/tw"/>
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="Soundcloud"
+                              android:textColor="#708090"
+                              android:fontFamily="@font/reg"
+                              android:textSize="18dp"/>
+
+                    <ImageView android:layout_width="35dp"
+                               android:layout_height="35dp"
+                               android:src="@drawable/scld"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp">
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:orientation="horizontal"
+                          android:weightSum="3">
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="Youtube"
+                              android:textColor="#708090"
+                              android:fontFamily="@font/reg"
+                              android:textSize="18dp"/>
+
+                    <ImageView android:layout_width="35dp"
+                               android:layout_height="35dp"
+                               android:src="@drawable/you"/>
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="Chrome"
+                              android:textColor="#708090"
+                              android:fontFamily="@font/reg"
+                              android:textSize="18dp"/>
+
+                    <ImageView android:layout_width="35dp"
+                               android:layout_height="35dp"
+                               android:src="@drawable/chrome"/>
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="Google +"
+                              android:textColor="#708090"
+                              android:fontFamily="@font/reg"
+                              android:textSize="18dp"/>
+
+                    <ImageView android:layout_width="35dp"
+                               android:layout_height="35dp"
+                               android:src="@drawable/goop"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="220dp">
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:orientation="horizontal"
+                          android:weightSum="3">
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="Blogger"
+                              android:textColor="#708090"
+                              android:fontFamily="@font/reg"
+                              android:textSize="18dp"/>
+
+                    <ImageView android:layout_width="35dp"
+                               android:layout_height="35dp"
+                               android:src="@drawable/bloger"/>
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="Dropbox"
+                              android:textColor="#708090"
+                              android:fontFamily="@font/reg"
+                              android:textSize="18dp"/>
+
+                    <ImageView android:layout_width="35dp"
+                               android:layout_height="35dp"
+                               android:src="@drawable/boxd"/>
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="Google Drive"
+                              android:textColor="#708090"
+                              android:fontFamily="@font/reg"
+                              android:textSize="18dp"/>
+
+                    <ImageView android:layout_width="35dp"
+                               android:layout_height="35dp"
+                               android:src="@drawable/dri"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

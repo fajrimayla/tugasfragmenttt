@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_horizontal"
+              android:gravity="center"
+              android:layout_marginTop="370dp"
+              android:orientation="vertical"
+              tools:context=".SecondFragment">
+
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+            <ImageView android:layout_width="match_parent"
+                       android:layout_height="200dp"
+                       android:layout_margin="15dp"
+                       android:layout_centerHorizontal="true"
+                       android:scaleType="fitCenter"
+                       android:src="@drawable/sp"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:text="To a Dead Lover"
+                      android:textAlignment="center"
+                      android:fontFamily="@font/bas"
+                      android:textSize="20dp"
+                      android:textColor="#7C9E54"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:textSize="13dp"
+                      android:fontFamily="@font/mkt"
+                      android:textColor="#212121"
+                      android:textAlignment="center"
+                      android:text="The dark is thrown
+Back from the brightness, like hair
+Cast over a shoulder.
+I am alone,
+
+Four years older;
+Like the chairs and the walls
+Which I once watched brighten
+With you beside me. I was to waken
+Never like this, whatever came or was taken.
+
+The stalk grows, the year beats on the wind.
+Apples come, and the month for their fall.
+The bark spreads, the roots tighten.
+Though today be the last
+Or tomorrow all,
+You will not mind.
+
+That I may not remember
+Does not matter.
+I shall not be with you again.
+What we knew, even now
+Must scatter
+And be ruined, and blow
+Like dust in the rain.
+
+You have been dead a long season
+And have less than desire
+Who were lover with lover;
+And I have life—that old reason
+To wait for what comes,
+To leave what is over. "/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:textSize="9dp"
+                      android:fontFamily="@font/mkt"
+                      android:textColor="#212121"
+                      android:textAlignment="center"
+                      android:text="BY LOUISE BOGAN"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
